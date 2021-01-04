@@ -59,3 +59,16 @@ input[type='range']::-webkit-slider-thumb{
     left: 0;
     pointer-events: none;
 }
+
+@media screen and (max-width: 768px){
+    .player
+    {
+        .time-controler
+        {
+            width: 90%;
+        }
+        .play-control{
+            width: 70%;
+        }
+    }
+}
