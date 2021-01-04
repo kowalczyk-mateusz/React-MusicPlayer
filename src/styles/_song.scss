@@ -1,0 +1,24 @@
+.song-container {
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 20%;
+        border-radius: 50%;
+        animation: animate linear 6s infinite;
+    }
+    h2{
+        padding: 3rem 1rem 1rem 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@keyframes animate {
+100% {
+    transform: rotate(360deg);
+}
+}
